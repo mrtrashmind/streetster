@@ -1,0 +1,23 @@
+// :root {
+//     --s-color: #F9F9F9;
+//     --f-color: #101010;
+// }
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+// Шрифты, кнопки, тайтлы и т.д.
+@import 'base/fonts.scss';
+
+// Библиотеки, фреймворки и т.д.
+@import 'libs/bootstrap-reboot.min';
+
+// Блоки
+@import 'blocks/header';
+@import 'blocks/promo';

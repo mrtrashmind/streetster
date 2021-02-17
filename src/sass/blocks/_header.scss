@@ -1,0 +1,57 @@
+.header {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__search {
+        display: flex;
+        align-items: center;
+
+        width: 400px;
+        height: 30px;
+        
+        padding: 0 17px;
+
+        border-radius: 15.5px;
+
+        background: #FFFFFF;
+        &::before {
+            content: url(../icons/loupe.svg);
+            margin-right: 5px;
+        }
+    }
+    [type="search"] {
+        width: 100%;
+
+        border: none;
+        outline: none;
+    }
+    &__items {
+        display: flex;
+        align-items: center;
+    }
+    &__cart {
+        margin-right: 35px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .hamburger {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+
+        width: 26px;
+        height: 20px;
+
+        cursor: pointer;
+        span {
+            width: 100%;
+            height: 2px;
+
+            background: #FFFFFF;
+        }
+    }
+}
